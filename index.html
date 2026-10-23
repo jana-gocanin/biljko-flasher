@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biljko — ažuriranje firmware-a</title>
+<script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+<style>
+  :root{ --bg:#F7F6F1; --card:#FFFFFF; --ink:#272B20; --mut:#6A6E5E;
+         --pot:#C06A36; --leaf:#3F8A44; --line:#272B20; }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#151813; --card:#1E221B; --ink:#E9E7DB; --mut:#A3A795;
+           --pot:#E08A4E; --leaf:#7FC36F; --line:#E9E7DB; }
+  }
+  *{box-sizing:border-box}
+  body{ background:var(--bg); color:var(--ink); margin:0; padding:24px 16px 64px;
+    font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif; line-height:1.6;}
+  main{max-width:560px; margin:0 auto; display:flex; flex-direction:column; gap:22px;}
+  h1{font-size:1.6rem; margin:0; letter-spacing:-.01em;}
+  h1 .pix{ display:inline-block; width:.7em; height:.7em; background:var(--leaf);
+    box-shadow:.7em 0 0 var(--pot); margin-right:1.4em;}
+  .sub{color:var(--mut); margin:4px 0 0; font-size:.95rem;}
+  .card{ background:var(--card); border:2px solid var(--line); border-radius:6px;
+    box-shadow:5px 5px 0 rgba(0,0,0,.15); padding:18px;}
+  ol{margin:0; padding-left:22px;}
+  li{margin-bottom:10px;}
+  .dugme{ text-align:center; padding:26px 18px;}
+  esp-web-install-button button{ font-size:1.1rem; }
+  .ne-radi{ color:var(--mut); font-size:.9rem;}
+  details{ font-size:.93rem; color:var(--mut);}
+  summary{ cursor:pointer; color:var(--ink); font-weight:600; margin-bottom:6px;}
+  code{ background:rgba(127,127,127,.15); padding:1px 6px; border-radius:4px;
+    font-family:ui-monospace,Menlo,Consolas,monospace; font-size:.88em;}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1><span class="pix"></span>Biljko — ažuriranje</h1>
+    <p class="sub">Novi firmware za tvoj Plant Tamagotchi, direktno iz browsera. Bez instalacije, bez naloga.</p>
+  </header>
+
+  <div class="card">
+    <ol>
+      <li>Poveži Biljka sa računarom <b>USB kablom</b> (mora biti data kabl, ne samo punjač).</li>
+      <li>Klikni dugme ispod i u prozorčiću izaberi port uređaja (obično <code>USB Serial</code> / <code>CH910x</code>).</li>
+      <li>Sačekaj 1–2 minuta — Biljko će se sam restartovati sa novom verzijom. Tvoj izbor profila biljke ostaje sačuvan.</li>
+    </ol>
+  </div>
+
+  <div class="card dugme">
+    <esp-web-install-button manifest="manifest.json">
+      <span slot="unsupported" class="ne-radi">
+        Ovaj browser ne podržava ažuriranje — otvori stranicu u
+        <b>Chrome</b> ili <b>Edge</b> na računaru (telefon ne može).
+      </span>
+    </esp-web-install-button>
+  </div>
+
+  <details class="card">
+    <summary>Ne vidi uređaj?</summary>
+    <ul>
+      <li>Probaj drugi USB kabl — kablovi „samo za punjenje" su najčešći krivac.</li>
+      <li>Zatvori druge programe koji drže port (Arduino IDE, serijski monitor).</li>
+      <li>Na starijim Windows/macOS sistemima možda treba
+        <a href="https://www.wch-ic.com/downloads/CH341SER_ZIP.html">CH340/CH9102 drajver</a>.</li>
+      <li>I dalje ne radi? Piši nam — tu smo.</li>
+    </ul>
+  </details>
+</main>
+</body>
+</html>
