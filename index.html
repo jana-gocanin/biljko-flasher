@@ -149,7 +149,7 @@
     kartica.querySelector(".opis").textContent = v.opis || "";
     kartica.querySelector(".pragovi").innerHTML =
       `<span>zemlja ${v.zmin}–${v.zmax}%</span>` +
-      `<span>svetlo ${v.smin}–${v.smax} lx</span>` +
+      `<span>svetlo (vrh dana) ${v.smin}–${v.smax} lx</span>` +
       `<span>maks ${v.tmax}°C</span>` +
       `<span>vlaga ${v.vmin}–${v.vmax}%</span>` +
       `<span>izgled: ${FAMILIJE[v.fam] || "?"}</span>`;
