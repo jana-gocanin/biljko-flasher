@@ -6,11 +6,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 500,
 "smax": 8000,
 "vmin": 40,
 "vmax": 80,
-"opis": "klasika; umereno zalivanje, bez direktnog sunca"
+"opis": "klasika; umereno zalivanje, bez direktnog sunca",
+"doza": 5000
 },
 {
 "ime": "Filodendron",
@@ -19,11 +19,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 300,
 "smax": 6000,
 "vmin": 40,
 "vmax": 80,
-"opis": "tolerantan i zahvalan"
+"opis": "tolerantan i zahvalan",
+"doza": 4000
 },
 {
 "ime": "Alokazija",
@@ -32,11 +32,11 @@
 "zmin": 50,
 "zmax": 75,
 "tmax": 28,
-"smin": 800,
 "smax": 5000,
 "vmin": 50,
 "vmax": 85,
-"opis": "voli vlagu i toplo"
+"opis": "voli vlagu i toplo",
+"doza": 5000
 },
 {
 "ime": "Fikus lirata",
@@ -45,11 +45,11 @@
 "zmin": 40,
 "zmax": 65,
 "tmax": 30,
-"smin": 1500,
 "smax": 10000,
 "vmin": 40,
 "vmax": 70,
-"opis": "voli svetlo mesto i mir"
+"opis": "voli svetlo mesto i mir",
+"doza": 8000
 },
 {
 "ime": "Gumijevac",
@@ -58,11 +58,11 @@
 "zmin": 35,
 "zmax": 65,
 "tmax": 30,
-"smin": 1000,
 "smax": 10000,
 "vmin": 30,
 "vmax": 70,
-"opis": "izdrzljiv"
+"opis": "izdrzljiv",
+"doza": 6000
 },
 {
 "ime": "Fikus benjamin",
@@ -71,11 +71,11 @@
 "zmin": 35,
 "zmax": 65,
 "tmax": 30,
-"smin": 1000,
 "smax": 10000,
 "vmin": 40,
 "vmax": 70,
-"opis": "ne voli premestanje"
+"opis": "ne voli premestanje",
+"doza": 6000
 },
 {
 "ime": "Aglaonema",
@@ -84,11 +84,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 200,
 "smax": 4000,
 "vmin": 40,
 "vmax": 80,
-"opis": "podnosi senku"
+"opis": "podnosi senku",
+"doza": 2500
 },
 {
 "ime": "Difenbahija",
@@ -97,11 +97,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 500,
 "smax": 5000,
 "vmin": 40,
 "vmax": 80,
-"opis": "bujna i brza"
+"opis": "bujna i brza",
+"doza": 4000
 },
 {
 "ime": "Aloja",
@@ -110,11 +110,11 @@
 "zmin": 20,
 "zmax": 40,
 "tmax": 35,
-"smin": 3000,
 "smax": 15000,
 "vmin": 20,
 "vmax": 60,
-"opis": "sukulent; retko zalivanje"
+"opis": "sukulent; retko zalivanje",
+"doza": 10000
 },
 {
 "ime": "Ecevarija",
@@ -123,11 +123,11 @@
 "zmin": 15,
 "zmax": 35,
 "tmax": 35,
-"smin": 5000,
 "smax": 30000,
 "vmin": 20,
 "vmax": 50,
-"opis": "voli puno sunca"
+"opis": "voli puno sunca",
+"doza": 12000
 },
 {
 "ime": "Kalanhoja",
@@ -136,11 +136,11 @@
 "zmin": 20,
 "zmax": 40,
 "tmax": 32,
-"smin": 3000,
 "smax": 20000,
 "vmin": 20,
 "vmax": 60,
-"opis": "cvetajuci sukulent"
+"opis": "cvetajuci sukulent",
+"doza": 10000
 },
 {
 "ime": "Havortija",
@@ -149,11 +149,11 @@
 "zmin": 15,
 "zmax": 40,
 "tmax": 32,
-"smin": 1500,
 "smax": 10000,
 "vmin": 20,
 "vmax": 60,
-"opis": "sukulent koji podnosi senku"
+"opis": "sukulent koji podnosi senku",
+"doza": 6000
 },
 {
 "ime": "Krasula",
@@ -162,11 +162,11 @@
 "zmin": 15,
 "zmax": 35,
 "tmax": 32,
-"smin": 3000,
 "smax": 20000,
 "vmin": 20,
 "vmax": 50,
-"opis": "drvo zivota; suvo i svetlo"
+"opis": "drvo zivota; suvo i svetlo",
+"doza": 10000
 },
 {
 "ime": "Kaktus",
@@ -175,11 +175,11 @@
 "zmin": 10,
 "zmax": 30,
 "tmax": 40,
-"smin": 5000,
 "smax": 50000,
 "vmin": 10,
 "vmax": 50,
-"opis": "pustinjski rezim"
+"opis": "pustinjski rezim",
+"doza": 20000
 },
 {
 "ime": "Mamilarija",
@@ -188,11 +188,11 @@
 "zmin": 10,
 "zmax": 30,
 "tmax": 40,
-"smin": 5000,
 "smax": 50000,
 "vmin": 10,
 "vmax": 50,
-"opis": "mali okrugli kaktus"
+"opis": "mali okrugli kaktus",
+"doza": 20000
 },
 {
 "ime": "Opuncija",
@@ -201,11 +201,11 @@
 "zmin": 10,
 "zmax": 30,
 "tmax": 40,
-"smin": 5000,
 "smax": 50000,
 "vmin": 10,
 "vmax": 50,
-"opis": "kaktus-raketa"
+"opis": "kaktus-raketa",
+"doza": 20000
 },
 {
 "ime": "Bozicni kaktus",
@@ -214,11 +214,11 @@
 "zmin": 40,
 "zmax": 65,
 "tmax": 28,
-"smin": 500,
 "smax": 3000,
 "vmin": 40,
 "vmax": 70,
-"opis": "NIJE pustinjski — voli vlagu i polusenku"
+"opis": "NIJE pustinjski — voli vlagu i polusenku",
+"doza": 4000
 },
 {
 "ime": "Orhideja",
@@ -227,11 +227,11 @@
 "zmin": 50,
 "zmax": 70,
 "tmax": 28,
-"smin": 500,
 "smax": 3000,
 "vmin": 50,
 "vmax": 80,
-"opis": "difuzno svetlo, bez prelivanja"
+"opis": "difuzno svetlo, bez prelivanja",
+"doza": 4000
 },
 {
 "ime": "Africka ljubicica",
@@ -240,11 +240,11 @@
 "zmin": 45,
 "zmax": 70,
 "tmax": 27,
-"smin": 500,
 "smax": 3000,
 "vmin": 50,
 "vmax": 80,
-"opis": "ne kvasiti listove"
+"opis": "ne kvasiti listove",
+"doza": 4000
 },
 {
 "ime": "Anturijum",
@@ -253,11 +253,11 @@
 "zmin": 50,
 "zmax": 75,
 "tmax": 28,
-"smin": 500,
 "smax": 4000,
 "vmin": 50,
 "vmax": 85,
-"opis": "voli vlagu"
+"opis": "voli vlagu",
+"doza": 4000
 },
 {
 "ime": "Spatifilum",
@@ -266,11 +266,11 @@
 "zmin": 45,
 "zmax": 75,
 "tmax": 28,
-"smin": 200,
 "smax": 3000,
 "vmin": 40,
 "vmax": 80,
-"opis": "zenski cvet; podnosi senku"
+"opis": "zenski cvet; podnosi senku",
+"doza": 2500
 },
 {
 "ime": "Begonija",
@@ -279,11 +279,11 @@
 "zmin": 40,
 "zmax": 65,
 "tmax": 28,
-"smin": 500,
 "smax": 4000,
 "vmin": 40,
 "vmax": 70,
-"opis": "umereno u svemu"
+"opis": "umereno u svemu",
+"doza": 4000
 },
 {
 "ime": "Ciklama",
@@ -292,11 +292,11 @@
 "zmin": 45,
 "zmax": 70,
 "tmax": 20,
-"smin": 1000,
 "smax": 5000,
 "vmin": 40,
 "vmax": 70,
-"opis": "voli HLADNO — max 20C"
+"opis": "voli HLADNO — max 20C",
+"doza": 5000
 },
 {
 "ime": "Pothos",
@@ -305,11 +305,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 200,
 "smax": 5000,
 "vmin": 40,
 "vmax": 80,
-"opis": "neunistiva puzavica"
+"opis": "neunistiva puzavica",
+"doza": 2500
 },
 {
 "ime": "Brsljan",
@@ -318,11 +318,11 @@
 "zmin": 30,
 "zmax": 60,
 "tmax": 26,
-"smin": 500,
 "smax": 5000,
 "vmin": 40,
 "vmax": 70,
-"opis": "voli hladnije prostorije"
+"opis": "voli hladnije prostorije",
+"doza": 4000
 },
 {
 "ime": "Hoja",
@@ -331,11 +331,11 @@
 "zmin": 30,
 "zmax": 60,
 "tmax": 30,
-"smin": 1000,
 "smax": 8000,
 "vmin": 30,
 "vmax": 60,
-"opis": "voskovac; voli da se osusi"
+"opis": "voskovac; voli da se osusi",
+"doza": 5000
 },
 {
 "ime": "Tradeskancija",
@@ -344,11 +344,11 @@
 "zmin": 35,
 "zmax": 65,
 "tmax": 30,
-"smin": 800,
 "smax": 6000,
 "vmin": 40,
 "vmax": 70,
-"opis": "brza i sarena"
+"opis": "brza i sarena",
+"doza": 4000
 },
 {
 "ime": "Filodendron penjac",
@@ -357,11 +357,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 300,
 "smax": 5000,
 "vmin": 40,
 "vmax": 80,
-"opis": "srcoliki listovi"
+"opis": "srcoliki listovi",
+"doza": 2500
 },
 {
 "ime": "Paprat nefrolepis",
@@ -370,11 +370,11 @@
 "zmin": 55,
 "zmax": 80,
 "tmax": 28,
-"smin": 200,
 "smax": 2000,
 "vmin": 50,
 "vmax": 90,
-"opis": "stalno vlazna, bez sunca"
+"opis": "stalno vlazna, bez sunca",
+"doza": 2500
 },
 {
 "ime": "Adiantum",
@@ -383,11 +383,11 @@
 "zmin": 55,
 "zmax": 80,
 "tmax": 26,
-"smin": 200,
 "smax": 1500,
 "vmin": 60,
 "vmax": 90,
-"opis": "vilina kosa; nikad suva"
+"opis": "vilina kosa; nikad suva",
+"doza": 2500
 },
 {
 "ime": "Kalateja",
@@ -396,11 +396,11 @@
 "zmin": 50,
 "zmax": 75,
 "tmax": 28,
-"smin": 200,
 "smax": 2000,
 "vmin": 60,
 "vmax": 90,
-"opis": "diva; voli vlagu i senku"
+"opis": "diva; voli vlagu i senku",
+"doza": 2500
 },
 {
 "ime": "Maranta",
@@ -409,11 +409,11 @@
 "zmin": 50,
 "zmax": 75,
 "tmax": 28,
-"smin": 200,
 "smax": 2000,
 "vmin": 60,
 "vmax": 90,
-"opis": "molitvena biljka"
+"opis": "molitvena biljka",
+"doza": 2500
 },
 {
 "ime": "Fitonija",
@@ -422,11 +422,11 @@
 "zmin": 55,
 "zmax": 80,
 "tmax": 28,
-"smin": 200,
 "smax": 2000,
 "vmin": 60,
 "vmax": 90,
-"opis": "drama-queen kad ozedni"
+"opis": "drama-queen kad ozedni",
+"doza": 2500
 },
 {
 "ime": "Asparagus",
@@ -435,11 +435,11 @@
 "zmin": 45,
 "zmax": 70,
 "tmax": 28,
-"smin": 500,
 "smax": 4000,
 "vmin": 40,
 "vmax": 80,
-"opis": "perjasta paprat"
+"opis": "perjasta paprat",
+"doza": 3000
 },
 {
 "ime": "Bosiljak",
@@ -448,11 +448,11 @@
 "zmin": 45,
 "zmax": 70,
 "tmax": 32,
-"smin": 5000,
 "smax": 40000,
 "vmin": 30,
 "vmax": 70,
-"opis": "sunce + redovno zalivanje"
+"opis": "sunce + redovno zalivanje",
+"doza": 12000
 },
 {
 "ime": "Nana",
@@ -461,11 +461,11 @@
 "zmin": 45,
 "zmax": 75,
 "tmax": 30,
-"smin": 3000,
 "smax": 30000,
 "vmin": 40,
 "vmax": 70,
-"opis": "voli vodu"
+"opis": "voli vodu",
+"doza": 8000
 },
 {
 "ime": "Ruzmarin",
@@ -474,11 +474,11 @@
 "zmin": 25,
 "zmax": 50,
 "tmax": 35,
-"smin": 5000,
 "smax": 50000,
 "vmin": 20,
 "vmax": 60,
-"opis": "mediteran: suvo i sunce"
+"opis": "mediteran: suvo i sunce",
+"doza": 15000
 },
 {
 "ime": "Persun",
@@ -487,11 +487,11 @@
 "zmin": 45,
 "zmax": 70,
 "tmax": 28,
-"smin": 3000,
 "smax": 30000,
 "vmin": 40,
 "vmax": 70,
-"opis": "kuhinjski prozor"
+"opis": "kuhinjski prozor",
+"doza": 8000
 },
 {
 "ime": "Origano",
@@ -500,11 +500,11 @@
 "zmin": 30,
 "zmax": 55,
 "tmax": 33,
-"smin": 5000,
 "smax": 40000,
 "vmin": 20,
 "vmax": 60,
-"opis": "mediteran"
+"opis": "mediteran",
+"doza": 12000
 },
 {
 "ime": "Areka palma",
@@ -513,11 +513,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 1000,
 "smax": 8000,
 "vmin": 40,
 "vmax": 70,
-"opis": "svetlo bez direktnog sunca"
+"opis": "svetlo bez direktnog sunca",
+"doza": 5000
 },
 {
 "ime": "Hamedoreja",
@@ -526,11 +526,11 @@
 "zmin": 40,
 "zmax": 70,
 "tmax": 30,
-"smin": 300,
 "smax": 3000,
 "vmin": 40,
 "vmax": 70,
-"opis": "palma za senku"
+"opis": "palma za senku",
+"doza": 2500
 },
 {
 "ime": "Juka",
@@ -539,11 +539,11 @@
 "zmin": 20,
 "zmax": 45,
 "tmax": 35,
-"smin": 3000,
 "smax": 30000,
 "vmin": 20,
 "vmax": 50,
-"opis": "suvo i sunce"
+"opis": "suvo i sunce",
+"doza": 12000
 },
 {
 "ime": "Drakena",
@@ -552,11 +552,11 @@
 "zmin": 30,
 "zmax": 60,
 "tmax": 30,
-"smin": 500,
 "smax": 5000,
 "vmin": 30,
 "vmax": 70,
-"opis": "tolerantna"
+"opis": "tolerantna",
+"doza": 3000
 },
 {
 "ime": "Sanseverija",
@@ -565,11 +565,11 @@
 "zmin": 10,
 "zmax": 40,
 "tmax": 35,
-"smin": 100,
 "smax": 30000,
 "vmin": 20,
 "vmax": 60,
-"opis": "tastin jezik; suvo + bilo kakvo svetlo"
+"opis": "tastin jezik; suvo + bilo kakvo svetlo",
+"doza": 2000
 },
 {
 "ime": "Aspidistra",
@@ -578,11 +578,11 @@
 "zmin": 20,
 "zmax": 55,
 "tmax": 28,
-"smin": 50,
 "smax": 2000,
 "vmin": 30,
 "vmax": 70,
-"opis": "zelezna biljka — moze bukvalno u tami"
+"opis": "zelezna biljka — moze bukvalno u tami",
+"doza": 1500
 },
 {
 "ime": "Zamija",
@@ -591,11 +591,11 @@
 "zmin": 10,
 "zmax": 40,
 "tmax": 32,
-"smin": 100,
 "smax": 5000,
 "vmin": 20,
 "vmax": 60,
-"opis": "ZZ; zaboravi je nedeljama"
+"opis": "ZZ; zaboravi je nedeljama",
+"doza": 2000
 },
 {
 "ime": "Hlorofitum",
@@ -604,10 +604,10 @@
 "zmin": 35,
 "zmax": 65,
 "tmax": 30,
-"smin": 500,
 "smax": 8000,
 "vmin": 30,
 "vmax": 70,
-"opis": "zelenkada; neunistiva"
+"opis": "zelenkada; neunistiva",
+"doza": 3000
 }
 ]

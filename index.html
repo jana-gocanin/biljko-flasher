@@ -149,7 +149,8 @@
     kartica.querySelector(".opis").textContent = v.opis || "";
     kartica.querySelector(".pragovi").innerHTML =
       `<span>zemlja ${v.zmin}–${v.zmax}%</span>` +
-      `<span>svetlo (vrh dana) ${v.smin}–${v.smax} lx</span>` +
+      `<span>doza svetla ≥ ${(v.doza/1000).toFixed(1)} klx·h/dan</span>` +
+      `<span>maks ${v.smax} lx trenutno</span>` +
       `<span>maks ${v.tmax}°C</span>` +
       `<span>vlaga ${v.vmin}–${v.vmax}%</span>` +
       `<span>izgled: ${FAMILIJE[v.fam] || "?"}</span>`;
@@ -168,7 +169,7 @@
     }
     const v = izabrana;
     const linija = `VRSTA:${v.ime};fam=${v.fam};zmin=${v.zmin};zmax=${v.zmax}` +
-      `;tmax=${v.tmax};smin=${v.smin};smax=${v.smax};vmin=${v.vmin};vmax=${v.vmax}\n`;
+      `;tmax=${v.tmax};doza=${v.doza};smax=${v.smax};vmin=${v.vmin};vmax=${v.vmax}\n`;
     let port;
     try {
       status.textContent = "Izaberi port u prozorčiću…";

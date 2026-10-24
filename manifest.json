@@ -1,13 +1,13 @@
 {
   "name": "Biljko — Plant Tamagotchi",
-  "version": "v1.4.0",
+  "version": "v1.5.0",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "firmware/biljko-v1.4.0.bin",
+          "path": "firmware/biljko-v1.5.0.bin",
           "offset": 0
         }
       ]
